@@ -1,0 +1,13 @@
+{
+  "name": "tiny-commons",
+  "version": "1.0.0",
+  "description": "Tiny Commons — a multiplayer game of give and take. Make promises, hide your plans, and build a little neighborhood together.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=19"
+  }
+}

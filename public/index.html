@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tiny Commons — small town, big little secrets</title>
+    <meta
+      name="description"
+      content="A multiplayer game of give and take. Make promises, hide your plans, and build a little neighborhood together. 3–8 friends. No accounts needed."
+    />
+    <link rel="shortcut icon" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.svg" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="antialiased">
+    <!-- React mounts here. The markup below is a static placeholder shown for
+         the split second before app.js takes over, so the page never flashes
+         blank. It mirrors the app's own "loading" state. -->
+    <div id="root">
+      <div class="app-shell">
+        <header class="site-header">
+          <div class="brand" aria-label="Tiny Commons">
+            <span class="brand-mark">
+              <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5Z"></path>
+              </svg>
+            </span>
+            <span>tiny<span class="brand-light">commons</span><span class="brand-period">.</span></span>
+          </div>
+        </header>
+        <div id="main-content">
+          <main class="loading-page" role="status">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5Z"></path>
+            </svg>
+            <h1>Finding your neighborhood…</h1>
+            <p>Your room is catching up.</p>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <script src="/vendor/react.production.min.js"></script>
+    <script src="/vendor/react-dom.production.min.js"></script>
+    <script src="/engine.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
